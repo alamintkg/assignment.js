@@ -45,7 +45,7 @@ function brickCalculator(floorNo){
 // Problem No 4 => tinyFriend 
 
 
-var myFriend = tinyFriend ([`Amin`, `Hadi`, `Munim`, `Momo`, `Mustahid`, `Don`]);
+var myFriends = tinyFriend ([`Amin`, `Hadi`, `Munim`, `Momo`, `Mustahid`, `Don`]);
 
 function tinyFriend(namesOfSmall){
     if(namesOfSmall == 0){
@@ -60,4 +60,4 @@ function tinyFriend(namesOfSmall){
     }
     return smallestFriend;
 }
-console.log(myFriend)
+console.log(myFriends)
