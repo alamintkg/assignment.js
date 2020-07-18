@@ -3,7 +3,7 @@
 
 function feetToMile(feet){
     if(feet < 0){
-        return "invalid value. Yor valu should no be negative";
+        return "You are wrong. Pease write correct data";
     }
     var mile = feet / 5280;     //N.b:- 5280 feet = 1 mile.
     return mile;
